@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+    <title>Animated Navigation</title>
+</head>
+<body>
+    <header class="header">
+        <a href="https://shayan-faghihi.ir" class="logo">Shayan Faghihi</a>
+        <a href="javascript:void(0)" class="hamburger" id="openBtn"><i class="fas fa-bars"></i></a>
+    </header>
+    <!-- Navigation - At First it is hidden and is trigged by JS -->
+    <nav id="nav">
+        <a href="javascript:void(0)" class="times" id="closeBtn"><i class="fas fa-times"></i></a>
+        <ul class="nav-list">
+            <li class="nav-list__item"><a href="#home" class="nav-list__link">Home</a></li>
+            <li class="nav-list__item"><a href="#about" class="nav-list__link">About</a></li>
+            <li class="nav-list__item"><a href="#service" class="nav-list__link">Service</a></li>
+            <li class="nav-list__item"><a href="#testimonial" class="nav-list__link">Testimonial</a></li>
+            <li class="nav-list__item"><a href="#contact" class="nav-list__link">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Sections having full view port height -->
+    <main class="main-page">
+        <!-- Home Section -->
+        <section class="section hero" id="home">
+            <h1 class="title">This is my website</h1>
+        </section> <!--End of Home Section-->
+        <!-- About Section -->
+        <section class="section" id="about">
+            <h2 class="title">This section is about my company</h2>
+        </section> <!--End of About Section-->
+        <!-- Services Section -->
+        <section class="section" id="service">
+            <h2 class="title">This section shows my services I give</h2>
+        </section> <!--End of Services Section-->
+        <!-- Testimonials Section -->
+        <section class="section" id="testimonial">
+            <h2 class="title">This section shows recent customers reviews</h2>
+        </section> <!--End of Testimonial Section-->
+        <!-- Contact Section -->
+        <section class="section" id="contact">
+            <h2 class="title">You can contact me in this Section</h2>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
